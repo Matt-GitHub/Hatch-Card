@@ -1,0 +1,54 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.navLogo {
+  margin-left: 25px;
+}
+
+.navHome {
+  display: flex;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navigationLinks {
+  display: flex;
+  align-items: center;
+  width: 38%;
+}
+
+.navItem {
+  list-style: none;
+}
+
+.navLink {
+  list-style: none;
+  color: rgb(70, 95, 106);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navLinkActive {
+  list-style: none;
+  color: rgb(134, 152, 159);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navLink:hover {
+  color: rgb(41, 111, 147);
+}

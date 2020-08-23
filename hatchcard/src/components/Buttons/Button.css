@@ -1,0 +1,47 @@
+.button {
+  padding: 2%;
+  text-align: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 0px solid black;
+  background-color: #f9d10d;
+  background-image: linear-gradient(315deg, #fada3d, #fdef70);
+  color: #263435;
+  font-weight: 550;
+  font-size: 1.2rem;
+  width: 150px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(246, 203, 54);
+  background-image: linear-gradient(
+    315deg,
+    rgb(245, 200, 38),
+    rgb(246, 211, 32)
+  );
+  box-shadow: 3px 3px 3px -2px gray;
+}
+
+#signup {
+  margin-left: 30px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 13px;
+  font-size: 14px;
+  padding: 10px 12px;
+  width: 125px;
+}
+
+#learnMore {
+  margin-top: 30px;
+}
+
+#learnMoreDifferent {
+  margin-top: 30px;
+}
+
+#Started {
+  width: 300px;
+}

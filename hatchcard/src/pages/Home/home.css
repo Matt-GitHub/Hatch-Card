@@ -1,0 +1,136 @@
+.container {
+  margin: 0% auto;
+  padding-top: 5%;
+}
+section {
+  margin: 0 auto;
+}
+
+.heroContainer {
+  padding-top: 5rem;
+  display: flex;
+  height: 60vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.heroContainer .heroContent {
+  margin-left: 12rem;
+  margin-top: 5rem;
+  height: 600px;
+}
+
+.heroContainer .heroH1 {
+  color: #68838f;
+  width: 50%;
+}
+
+.hColor {
+  margin: 1rem 0;
+  font-size: 52px;
+  color: rgb(41, 111, 147);
+}
+
+.heroContainer .heroP {
+  height: 90px;
+  color: rgb(78, 91, 97);
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 1rem, 0;
+  width: 80%;
+}
+
+.heroImg {
+  height: 100% !important;
+}
+
+.wave {
+  width: 100vw;
+  vertical-align: middle;
+}
+
+.hatchCard {
+  background-color: #ebf9ff;
+}
+.hatchCard h3 {
+  color: #68838f;
+  font-size: 24px;
+  padding-top: 5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.cardInfoCtn {
+  display: flex;
+}
+
+.cardInfoCtn .cardInfoP1 {
+  color: #68838f;
+  font-weight: bold;
+  width: 250px;
+}
+
+.cardInfoCtn .cardInfoP2 {
+  color: #68838f;
+  width: 350px;
+}
+
+.productImg {
+  height: 65%;
+  margin-top: 5rem;
+}
+
+.introducing {
+  color: rgb(59, 94, 110) !important;
+}
+
+.bottom {
+  transform: rotate(360deg);
+}
+
+.number {
+  opacity: 0.7;
+  color: rgb(39, 123, 160);
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 0.5%;
+}
+
+.hDifferent {
+  margin-top: 0;
+  margin-bottom: -8px;
+  color: #3b5e6e;
+  font-size: 20px;
+  line-height: 3.5;
+  font-weight: 500;
+}
+
+.works {
+  background-color: rgb(242, 248, 250);
+  margin-top: 10%;
+}
+
+.heroCardContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.heroCard {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+.heroCardImage {
+  width: 100px;
+  height: 100px;
+}
+
+.heroCardP {
+  color: rgb(4, 77, 110);
+  font-size: 18px;
+  width: 80%;
+  margin-top: 15%;
+  font-weight: 600;
+}

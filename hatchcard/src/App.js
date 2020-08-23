@@ -1,5 +1,8 @@
 import React from 'react';
+import Navigation from './components/Navigation/Navigation';
+import Home from './pages/Home/Home';
 
+// Styling
 import './App.css';
 
 function App() {
@@ -13,7 +16,9 @@ function App() {
     // TIME TO HATCH
     // FOOTER
     <div>
-      <h1>Hatch Card App</h1>
+      <Navigation />
+      {/* Pages */}
+      <Home />/
     </div>
   );
 }
