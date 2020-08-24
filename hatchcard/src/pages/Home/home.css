@@ -7,13 +7,15 @@ section {
 }
 
 .heroContainer {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   display: flex;
   height: 60vh;
   width: 80vw;
   margin: 0 auto;
 }
-
+#work {
+  padding-bottom: 4%;
+}
 .heroContainer .heroContent {
   margin-left: 12rem;
   margin-top: 5rem;
@@ -133,4 +135,15 @@ section {
   width: 80%;
   margin-top: 15%;
   font-weight: 600;
+}
+
+.startedButton {
+  text-align: center;
+  margin-top: 4%;
+  width: 84%;
+}
+
+#testimonial {
+  text-align: center;
+  margin-top: 4%;
 }

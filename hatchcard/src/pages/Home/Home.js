@@ -111,7 +111,7 @@ const Home = () => {
         </div>
       </section>
       <section className="works">
-        <div className="heroContainer">
+        <div id="work" className="heroContainer">
           <div className="heroContent">
             <h2 className="hColor">How It Works</h2>
             <div className="heroCardContainer">
@@ -168,7 +168,10 @@ const Home = () => {
       </section>
       <section>
         <div>
-          <h2 className="hColor">What Hatch Customers Are Saying</h2>
+          <h2 className="hColor" id="testimonial">
+            What Hatch <br />
+            Customers Are Saying
+          </h2>
           {/* Customer Card Component */}
         </div>
       </section>
