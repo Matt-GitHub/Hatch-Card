@@ -25,7 +25,7 @@ const Footer = () => {
       <img
         src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5ea835d882c1f7743eadbc97_CTA%20Wave%40svg.svg"
         alt=""
-        class="wave top cta-wave"
+        className="wave top cta-wave"
       ></img>
       {/* Customer Card Component */}
       <div className="footerTop">

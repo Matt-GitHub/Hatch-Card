@@ -13,11 +13,10 @@ const Home = () => {
             <h1 className="heroH1">
               We are
               <br />
-              <span className="hColor">Open for Business</span>
+              <span className="hColor">Hiring</span>
             </h1>
             <p className="heroP">
-              Hatch is here for you during these trying times. Get fast and easy
-              access to funds to grow your business.
+              Hey, Hatch Team! Heard you were hiring and wanted to catch your attention! My name is <strong>Matthew Bedard</strong> and I am a <strong>Front-End Engineer</strong> from Lambda School.
             </p>
             <Button type="button" text="Get Started" />
             <a href=""></a> {/* Bouncing Arrow */}
@@ -44,7 +43,7 @@ const Home = () => {
         <h3 className="introducing">Introducing...</h3>
         <div className="heroContainer">
           <div className="heroContent">
-            <h2 className="hColor">The Hatch Card</h2>
+            <h2 className="hColor">Matthew Bedard</h2>
             <p className="heroP">
               Start or grow your business with an easy way to access the money
               you need. Use the Hatch Card for daily business expenses or keep
@@ -100,7 +99,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img
+            <img className="wave"
               src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x.png"
               srcset="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-500.png 500w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-800.png 800w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x.png 968w"
               sizes="(max-width: 479px) 88vw, (max-width: 767px) 420px, (max-width: 991px) 48vw, 40vw"
@@ -172,7 +171,57 @@ const Home = () => {
             What Hatch <br />
             Customers Are Saying
           </h2>
-          {/* Customer Card Component */}
+          <div className="testimonialContainer">
+            <div className="testimonial">
+              <p className="testimonialBox">
+                With Hatch's support, I feel valued as an individual. I love
+                talking to a person.
+              </p>
+              <div className="testimonialCharacter">
+                <img
+                  className="testimonialImage"
+                  src="https://assets.website-files.com/5d89b3f25fc1b77367e9076c/5f2850ffd10e5b1bd08defcb_Change%20Website%20-%20Maryanne%20Satterfield-p-500.jpeg"
+                  alt="Headshot of person"
+                />
+                <div className="testimonialInfo">
+                  <p>Maryanne Satterfield </p>
+                  <p>SWEETFRILL SHOP </p>
+                </div>
+              </div>
+            </div>
+            <div className="testimonial">
+              <p className="testimonialBox">
+                I have a new business so I was pleasantly surprised when Hatch
+                approved me!
+              </p>
+              <div className="testimonialCharacter">
+                <img
+                  className="testimonialImage"
+                  alt="Michael Gurk" src="https://assets.website-files.com/5d89b3f25fc1b77367e9076c/5f2852548d27aaa77c590022_Pending%20-%20Ryan%20Hemenway%20(1).jpg"  
+                 />
+                <div className="testimonialInfo">
+                  <p>Ryan Hemenway </p>
+                  <p>TEXAS POOL CLUB </p>
+                </div>
+              </div>
+            </div>
+            <div className="testimonial">
+              <p className="testimonialBox">
+              Hatch has a great product, team and vision for the future of financing. Highly Recommend!
+              </p>
+              <div className="testimonialCharacter">
+                <img
+                  className="testimonialImage"
+                  src="https://avatars1.githubusercontent.com/u/35118316?s=460&u=0cde4614da30d79704b3cdadf2aed924199e85f9&v=4"
+                  alt="Headshot of person"
+                />
+                <div className="testimonialInfo">
+                  <p>Matthew Bedard </p>
+                  <p>Front-End Engineer </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
