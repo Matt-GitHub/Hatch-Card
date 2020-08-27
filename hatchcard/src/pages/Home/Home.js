@@ -11,15 +11,17 @@ const Home = () => {
         <div className="heroContainer">
           <div className="heroContent">
             <h1 className="heroH1">
-              We are
+              Hey,
               <br />
-              <span className="hColor">Hiring</span>
+              <span className="hColor" id="hTeam">Hatch Team</span>
             </h1>
-            <p className="heroP">
-              Hey, Hatch Team! Heard you were hiring and wanted to catch your attention! My name is <strong>Matthew Bedard</strong> and I am a <strong>Front-End Engineer</strong> from Lambda School.
+            <p className="heroP" id="hIntro">
+              Heard you were hiring and wanted to catch your attention! My name is <strong>Matthew Bedard</strong> and I am a <strong>Front-End Engineer</strong> from Lambda School.
             </p>
-            <Button type="button" text="Get Started" />
-            <a href=""></a> {/* Bouncing Arrow */}
+            
+            <a href="#Introducing_Matthew_Bedard">
+            <Button type="button" text="Get Started" id="introButton" />
+              </a> {/* Bouncing Arrow */}
           </div>
           <div>
             <img
@@ -39,35 +41,31 @@ const Home = () => {
         alt=""
         class="wave top"
       ></img>
-      <section className="hatchCard">
-        <h3 className="introducing">Introducing...</h3>
+      <section className="hatchCard" id="Introducing_Matthew_Bedard">
+        <h3 className="introducing" >Introducing...</h3>
         <div className="heroContainer">
           <div className="heroContent">
             <h2 className="hColor">Matthew Bedard</h2>
             <p className="heroP">
-              Start or grow your business with an easy way to access the money
-              you need. Use the Hatch Card for daily business expenses or keep
-              it in your back pocket for the unexpected.
+              Scale and grow your business the easy way by hiring me as your Front-End Engineer. Use my skillset for daily business needs or keep me working on the future of Hatch.
             </p>
 
             <div className="cardInfoCtn">
-              <p className="cardInfoP1">Hatch Card Terms</p>
+              <p className="cardInfoP1">My Terms</p>
               <p className="cardInfoP2">
-                Your Line of Credit will be available for 10 years and will
-                range from $200-$5,000.
+                Your new engineer will be available for 10 years and can start working for you today.
               </p>
             </div>
             <div className="cardInfoCtn">
-              <p className="cardInfoP1">Hatch Card APR</p>
-              <p className="cardInfoP2">Our APR is 18-24%.</p>
+              <p className="cardInfoP1">My Productivity</p>
+              <p className="cardInfoP2">Improve your team's productivity by 18-24%.</p>
             </div>
             <Button type="button" text="Learn More" id="learnMore" />
           </div>
           <div>
             <img
-              src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db336cb374cc8b9f7094b39_card-horizontal_05_r3.png"
-              srcset="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db336cb374cc8b9f7094b39_card-horizontal_05_r3-p-500.png 500w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db336cb374cc8b9f7094b39_card-horizontal_05_r3-p-800.png 800w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db336cb374cc8b9f7094b39_card-horizontal_05_r3-p-1080.png 1080w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db336cb374cc8b9f7094b39_card-horizontal_05_r3.png 1363w"
-              sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 991px) 46vw, 37vw"
+              src="https://www.linkpicture.com/q/Group-1-6.png"
+              
               alt=""
               class="productImg"
             />
@@ -82,18 +80,16 @@ const Home = () => {
       <section>
         <div className="heroContainer">
           <div className="heroContent">
-            <h2 className="hColor">What makes Hatch different?</h2>
+            <h2 className="hColor">What makes Matthew Bedard different?</h2>
             <div>
               <h3 className="hDifferent">
-                <span className="number">1. </span>Our quick and easy
-                application.
+                <span className="number">1. </span>Systems and Process Oriented
               </h3>
               <h3 className="hDifferent">
-                <span className="number">2. </span>No previous history needed.
+                <span className="number">2. </span>Loves Front-end Design and UX
               </h3>
               <h3 className="hDifferent">
-                <span className="number">3. </span>Access your funds when you
-                need it.
+                <span className="number">3. </span>Self starter and Owner
               </h3>
               <Button type="button" text="Learn More" id="learnMoreDifferent" />
             </div>
@@ -112,7 +108,7 @@ const Home = () => {
       <section className="works">
         <div id="work" className="heroContainer">
           <div className="heroContent">
-            <h2 className="hColor">How It Works</h2>
+            <h2 className="hColor">How I Work</h2>
             <div className="heroCardContainer">
               <div className="heroCard">
                 <p className="number">1.</p>
@@ -122,7 +118,7 @@ const Home = () => {
                   alt="Pencil"
                 />
                 <p className="heroCardP">
-                  Apply for your Hatch Card in less than 10 minutes
+                  Research and plan before committing to code
                 </p>
               </div>
               <div className="heroCard">
@@ -133,7 +129,7 @@ const Home = () => {
                   alt="Pencil"
                 />
                 <p className="heroCardP">
-                  Receive a credit decision within 3-5 business days
+                  Work around the clock to meet deadlines and mvp
                 </p>
               </div>
               <div className="heroCard">
@@ -144,7 +140,7 @@ const Home = () => {
                   alt="Pencil"
                 />
                 <p className="heroCardP">
-                  Use your card for business expenses at any time
+                  Ensure paying customers are happy with our product
                 </p>
               </div>
               <div className="heroCard">
@@ -155,7 +151,7 @@ const Home = () => {
                   alt="Pencil"
                 />
                 <p className="heroCardP">
-                  Repay like you would any other credit card
+                  Iterate and start the process over again
                 </p>
               </div>
             </div>
@@ -168,56 +164,54 @@ const Home = () => {
       <section>
         <div>
           <h2 className="hColor" id="testimonial">
-            What Hatch <br />
-            Customers Are Saying
+            What Colleagues <br />
+            Are Saying
           </h2>
           <div className="testimonialContainer">
             <div className="testimonial">
               <p className="testimonialBox">
-                With Hatch's support, I feel valued as an individual. I love
-                talking to a person.
+                Matthew is a self-starter and always taking initative to improve upon our process.
               </p>
               <div className="testimonialCharacter">
                 <img
                   className="testimonialImage"
-                  src="https://assets.website-files.com/5d89b3f25fc1b77367e9076c/5f2850ffd10e5b1bd08defcb_Change%20Website%20-%20Maryanne%20Satterfield-p-500.jpeg"
+                  src="https://ca.slack-edge.com/ESZCHB482-W011T9P80UE-ad6996a4de5d-512"
                   alt="Headshot of person"
                 />
                 <div className="testimonialInfo">
-                  <p>Maryanne Satterfield </p>
-                  <p>SWEETFRILL SHOP </p>
+                  <p>Lindsay Gilson</p>
+                  <p>Hiring Solutions</p>
                 </div>
               </div>
             </div>
             <div className="testimonial">
               <p className="testimonialBox">
-                I have a new business so I was pleasantly surprised when Hatch
-                approved me!
+                Matthew was our first choice when we heard there was another opening at Hatch.
               </p>
               <div className="testimonialCharacter">
                 <img
                   className="testimonialImage"
-                  alt="Michael Gurk" src="https://assets.website-files.com/5d89b3f25fc1b77367e9076c/5f2852548d27aaa77c590022_Pending%20-%20Ryan%20Hemenway%20(1).jpg"  
+                 src="https://ca.slack-edge.com/ESZCHB482-W01207XL02F-9e646be30d0e-512"  
                  />
                 <div className="testimonialInfo">
-                  <p>Ryan Hemenway </p>
-                  <p>TEXAS POOL CLUB </p>
+                  <p>Treydon Johnson</p>
+                  <p>Account Executive</p>
                 </div>
               </div>
             </div>
             <div className="testimonial">
               <p className="testimonialBox">
-              Hatch has a great product, team and vision for the future of financing. Highly Recommend!
+              Matthew is a standout engineer. Always delivers quality results to stakeholders.
               </p>
               <div className="testimonialCharacter">
                 <img
                   className="testimonialImage"
-                  src="https://avatars1.githubusercontent.com/u/35118316?s=460&u=0cde4614da30d79704b3cdadf2aed924199e85f9&v=4"
+                  src="https://ca.slack-edge.com/ESZCHB482-W012PSZ3EN4-3b902f0234f0-512"
                   alt="Headshot of person"
                 />
                 <div className="testimonialInfo">
-                  <p>Matthew Bedard </p>
-                  <p>Front-End Engineer </p>
+                  <p>Katie Spencer </p>
+                  <p>Career Coach </p>
                 </div>
               </div>
             </div>

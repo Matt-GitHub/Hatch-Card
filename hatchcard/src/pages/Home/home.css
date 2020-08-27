@@ -24,7 +24,7 @@ section {
 
 .heroContainer .heroH1 {
   color: #68838f;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .hColor {
@@ -64,6 +64,7 @@ section {
 
 .cardInfoCtn {
   display: flex;
+  width: 85%;
 }
 
 .cardInfoCtn .cardInfoP1 {
@@ -176,6 +177,13 @@ section {
   width: 150px;
   height: 150px;
 }
+
+#hIntro {
+  line-height: 1.75;
+  font-size: 19px;
+}
+
+
 
 .testimonialBox {
   padding: 10% 3%;

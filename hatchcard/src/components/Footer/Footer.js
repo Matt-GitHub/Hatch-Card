@@ -30,9 +30,9 @@ const Footer = () => {
       {/* Customer Card Component */}
       <div className="footerTop">
         <div className="footerCtn">
-          <h2>It's Time to Hatch!</h2>
+          <h2>It's Time to Connect!</h2>
           <p>
-            There's no catch with Hatch. Get fast and easy access to funds to
+            There's no catch with Matthew. Get fast and easy access to a Front-End Developer to
             grow your business.
           </p>
           <Button type="button" text="Apply Now!" />
