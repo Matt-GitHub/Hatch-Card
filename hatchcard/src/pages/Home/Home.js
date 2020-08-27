@@ -28,18 +28,17 @@ const Home = () => {
               style={{ height: '75%' }}
               className="openImg"
               src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db89f5e084afec3ede58274_Hatch%20hero%20image.png"
-              srcset="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db89f5e084afec3ede58274_Hatch%20hero%20image-p-500.png 500w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db89f5e084afec3ede58274_Hatch%20hero%20image-p-800.png 800w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db89f5e084afec3ede58274_Hatch%20hero%20image.png 834w"
-              sizes="(max-width: 479px) 220.921875px, (max-width: 767px) 370px, (max-width: 991px) 45vw, 46vw,"
-              alt=""
-              class="heroImg"
+              
+              alt="image7"
+              
             />
           </div>
         </div>
       </section>
       <img
         src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5ea831b6de6676a3e9eea2a1_product%20wave%201%40svg.svg"
-        alt=""
-        class="wave top"
+        alt="image8"
+        
       ></img>
       <section className="hatchCard" id="Introducing_Matthew_Bedard">
         <h3 className="introducing" >Introducing...</h3>
@@ -68,16 +67,14 @@ const Home = () => {
             <img
               src="https://www.linkpicture.com/q/Group-1-6.png"
               
-              alt=""
-              class="productImg"
+              alt="image9"
             />
           </div>
         </div>
       </section >
       <img
         src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5ed8e42e5021370394798740_alt%20Product%20wave%203%202%40svg.svg"
-        alt="blue"
-        class="wave bottom"
+        alt="image10"
       ></img>
       <section id="Differentiator_Matthew_Bedard">
         <div className="heroContainer">
@@ -101,10 +98,9 @@ const Home = () => {
           <div>
             <img className="wave"
               src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x.png"
-              srcset="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-500.png 500w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-800.png 800w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x.png 968w"
+              srcSet="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-500.png 500w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-800.png 800w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x.png 968w"
               sizes="(max-width: 479px) 88vw, (max-width: 767px) 420px, (max-width: 991px) 48vw, 40vw"
-              alt=""
-              class="product-image nostick right-bg-image"
+              alt="image12"
             />
           </div>
         </div>
@@ -198,6 +194,7 @@ const Home = () => {
                 <img
                   className="testimonialImage"
                   src="https://ca.slack-edge.com/ESZCHB482-W01207XL02F-9e646be30d0e-512"  
+                  alt="image5"
                  />
                 <div className="testimonialInfo">
                   <p>Treydon Johnson</p>

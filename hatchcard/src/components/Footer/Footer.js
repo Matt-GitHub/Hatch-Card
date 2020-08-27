@@ -35,7 +35,7 @@ const Footer = () => {
             There's no catch with Matthew. Get fast and easy access to a Front-End Developer to
             grow your business.
           </p>
-          <a href="https://www.linkedin.com/in/matthew-bedard-dev/" target="_blank">
+          <a href="https://www.linkedin.com/in/matthew-bedard-dev/" target="_blank" rel="noopener noreferrer">
           <Button type="button" text="Connect Now!" id="Connect"/>
           </a>
         </div>
@@ -53,42 +53,42 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/hatchcard/?eid=ARBDDxIyJ2iJKKA8togoawF3zUJXW838ewGK5MUBYybdaDdd_nMmgebg27WtpJpWg5ibcCwkwKEBwHkB"
               target="_blank"
-              class="social-link-block w-inline-block"
+              rel="noopener noreferrer"
             >
               <img
                 src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5d89ea15b4e4f7c1d4fca92e_Facebook%40svg.svg"
-                alt=""
+                alt="image1"
               />
             </a>
             <a
               href="https://www.instagram.com/onhatch/"
               target="_blank"
-              class="social-link-block w-inline-block"
+              rel="noopener noreferrer"
             >
               <img
                 src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db8a40a93ed4d5ae6ea5967_Instagram.svg"
                 width="16"
-                alt=""
+                alt="image2"
               />
             </a>
             <a
               href="https://twitter.com/hatchcard"
               target="_blank"
-              class="social-link-block w-inline-block"
+              rel="noopener noreferrer"
             >
               <img
                 src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5d89ea165fc1b72264ec70bf_Twitter%40svg.svg"
-                alt=""
+                alt="image3"
               />
             </a>
             <a
               href="https://www.linkedin.com/company/hatchcredit"
               target="_blank"
-              class="social-link-block w-inline-block"
+              rel="noopener noreferrer"
             >
               <img
                 src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5d89ea15115d0223ee3a595e_Linkedin%40svg.svg"
-                alt=""
+                alt="image4"
               />
             </a>
           </div>
@@ -141,7 +141,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="subscribe">
-            <a href="https://matthewbedard.dev/" target="_blank">
+            <a href="https://matthewbedard.dev/" target="_blank" rel="noopener noreferrer">
               <Button type="button" text="Portfolio" id="portfolio" />
               </a>
           <p>
