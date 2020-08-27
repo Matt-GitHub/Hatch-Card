@@ -6,6 +6,9 @@ import Home from './pages/Home/Home';
 import './App.css';
 
 function App() {
+  console.log(
+    'Hello, Hatch Team! Thank you for taking a look, nothing to see here.'
+  );
   return (
     // NAVIGATION
     // OPEN FOR BUSINESS
