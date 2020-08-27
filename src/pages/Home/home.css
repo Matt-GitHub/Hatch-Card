@@ -19,7 +19,7 @@ section {
   padding-bottom: 4%;
 }
 
-#Introducing_Matthew_Bedard {
+##Introducing_Matthew_Bedard {
   scroll-behavior: smooth;
 }
 .heroContainer .heroContent {
@@ -188,6 +188,8 @@ section {
   line-height: 1.75;
   font-size: 19px;
 }
+
+
 
 .testimonialBox {
   padding: 10% 3%;

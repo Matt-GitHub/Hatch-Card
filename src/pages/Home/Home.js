@@ -13,26 +13,24 @@ const Home = () => {
             <h1 className="heroH1">
               Hey,
               <br />
-              <span className="hColor" id="hTeam">
-                Hatch Team
-              </span>
+              <span className="hColor" id="hTeam">Hatch Team</span>
             </h1>
             <p className="heroP" id="hIntro">
-              Heard you were hiring and wanted to catch your attention! My name
-              is <strong>Matthew Bedard</strong> and I am a{' '}
-              <strong>Front-End Engineer</strong> from Lambda School.
+              Heard you were hiring and wanted to catch your attention! My name is <strong>Matthew Bedard</strong> and I am a <strong>Front-End Engineer</strong> from Lambda School.
             </p>
+            
             <a href="#Introducing_Matthew_Bedard">
-              <Button type="button" text="Get Started" id="introButton" />
-            </a>{' '}
-            {/* Bouncing Arrow */}
+            <Button type="button" text="Get Started" id="introButton" />
+              </a> {/* Bouncing Arrow */}
           </div>
           <div>
             <img
               style={{ height: '75%' }}
               className="openImg"
               src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db89f5e084afec3ede58274_Hatch%20hero%20image.png"
+              
               alt="image7"
+              
             />
           </div>
         </div>
@@ -40,48 +38,43 @@ const Home = () => {
       <img
         src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5ea831b6de6676a3e9eea2a1_product%20wave%201%40svg.svg"
         alt="image8"
-        className="wave"
+        
       ></img>
       <section className="hatchCard" id="Introducing_Matthew_Bedard">
-        <h3 className="introducing">Introducing...</h3>
+        <h3 className="introducing" >Introducing...</h3>
         <div className="heroContainer">
           <div className="heroContent">
             <h2 className="hColor">Matthew Bedard</h2>
             <p className="heroP">
-              Scale and grow your business the easy way by hiring me as your
-              Front-End Engineer. Use my skillset for daily business needs or
-              keep me working on the future of Hatch.
+              Scale and grow your business the easy way by hiring me as your Front-End Engineer. Use my skillset for daily business needs or keep me working on the future of Hatch.
             </p>
 
             <div className="cardInfoCtn">
               <p className="cardInfoP1">My Terms</p>
               <p className="cardInfoP2">
-                Your new engineer will be available for 10 years and can start
-                working for you today.
+                Your new engineer will be available for 10 years and can start working for you today.
               </p>
             </div>
             <div className="cardInfoCtn">
               <p className="cardInfoP1">My Productivity</p>
-              <p className="cardInfoP2">
-                Improve your team's productivity by 18-24%.
-              </p>
+              <p className="cardInfoP2">Improve your team's productivity by 18-24%.</p>
             </div>
             <a href="#Differentiator_Matthew_Bedard">
-              <Button type="button" text="Learn More" id="learnMore" />
+            <Button type="button" text="Learn More" id="learnMore" />
             </a>
           </div>
           <div>
             <img
               src="https://www.linkpicture.com/q/Group-1-6.png"
+              
               alt="image9"
             />
           </div>
         </div>
-      </section>
+      </section >
       <img
         src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5ed8e42e5021370394798740_alt%20Product%20wave%203%202%40svg.svg"
         alt="image10"
-        className="wave"
       ></img>
       <section id="Differentiator_Matthew_Bedard">
         <div className="heroContainer">
@@ -98,16 +91,12 @@ const Home = () => {
                 <span className="number">3. </span>Self starter and Owner
               </h3>
               <a href="#WorkFlow_Matthew_Bedard">
-                <Button
-                  type="button"
-                  text="Work Flow"
-                  id="learnMoreDifferent"
-                />
+              <Button type="button" text="Work Flow" id="learnMoreDifferent" />
               </a>
             </div>
           </div>
           <div>
-            <img
+            <img className="wave"
               src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x.png"
               srcSet="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-500.png 500w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x-p-800.png 800w, https://assets.website-files.com/5d89b3f25fc1b72994e90766/5db3396a374cc805280ac11b_Difference%202x.png 968w"
               sizes="(max-width: 479px) 88vw, (max-width: 767px) 420px, (max-width: 991px) 48vw, 40vw"
@@ -115,7 +104,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </section>
+      </section >
       <section className="works" id="WorkFlow_Matthew_Bedard">
         <div id="work" className="heroContainer">
           <div className="heroContent">
@@ -167,8 +156,8 @@ const Home = () => {
               </div>
             </div>
             <div className="startedButton">
-              <a href="#Testimonials_Matthew_Bedard">
-                <Button type="button" text="See Testimonials" id="Started" />
+            <a href="#Testimonials_Matthew_Bedard">
+              <Button type="button" text="See Testimonials" id="Started" />
               </a>
             </div>
           </div>
@@ -183,8 +172,7 @@ const Home = () => {
           <div className="testimonialContainer">
             <div className="testimonial">
               <p className="testimonialBox">
-                Matthew is a self-starter and always taking initative to improve
-                upon our process.
+                Matthew is a self-starter and always taking initative to improve upon our process.
               </p>
               <div className="testimonialCharacter">
                 <img
@@ -200,15 +188,14 @@ const Home = () => {
             </div>
             <div className="testimonial">
               <p className="testimonialBox">
-                Matthew was our first choice when we heard there was another
-                opening at Hatch.
+                Matthew was our first choice when we heard there was another opening at Hatch.
               </p>
               <div className="testimonialCharacter">
                 <img
                   className="testimonialImage"
-                  src="https://ca.slack-edge.com/ESZCHB482-W01207XL02F-9e646be30d0e-512"
+                  src="https://ca.slack-edge.com/ESZCHB482-W01207XL02F-9e646be30d0e-512"  
                   alt="image5"
-                />
+                 />
                 <div className="testimonialInfo">
                   <p>Treydon Johnson</p>
                   <p>Account Executive</p>
@@ -217,8 +204,7 @@ const Home = () => {
             </div>
             <div className="testimonial">
               <p className="testimonialBox">
-                Matthew is a standout engineer. Always delivers quality results
-                to stakeholders.
+              Matthew is a standout engineer. Always delivers quality results to stakeholders.
               </p>
               <div className="testimonialCharacter">
                 <img
