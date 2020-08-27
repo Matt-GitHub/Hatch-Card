@@ -1,2 +1,1 @@
-# Hatch-Card
-Hatch Card - Interview Project
+## Hatch Card Intro Project
