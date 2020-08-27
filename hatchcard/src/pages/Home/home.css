@@ -1,9 +1,11 @@
 .container {
   margin: 0% auto;
   padding-top: 5%;
+  scroll-behavior: smooth;
 }
 section {
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 .heroContainer {
@@ -15,6 +17,10 @@ section {
 }
 #work {
   padding-bottom: 4%;
+}
+
+##Introducing_Matthew_Bedard {
+  scroll-behavior: smooth;
 }
 .heroContainer .heroContent {
   margin-left: 12rem;

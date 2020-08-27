@@ -60,7 +60,9 @@ const Home = () => {
               <p className="cardInfoP1">My Productivity</p>
               <p className="cardInfoP2">Improve your team's productivity by 18-24%.</p>
             </div>
+            <a href="#Differentiator_Matthew_Bedard">
             <Button type="button" text="Learn More" id="learnMore" />
+            </a>
           </div>
           <div>
             <img
@@ -71,13 +73,13 @@ const Home = () => {
             />
           </div>
         </div>
-      </section>
+      </section >
       <img
         src="https://assets.website-files.com/5d89b3f25fc1b72994e90766/5ed8e42e5021370394798740_alt%20Product%20wave%203%202%40svg.svg"
         alt="blue"
         class="wave bottom"
       ></img>
-      <section>
+      <section id="Differentiator_Matthew_Bedard">
         <div className="heroContainer">
           <div className="heroContent">
             <h2 className="hColor">What makes Matthew Bedard different?</h2>
@@ -91,7 +93,9 @@ const Home = () => {
               <h3 className="hDifferent">
                 <span className="number">3. </span>Self starter and Owner
               </h3>
-              <Button type="button" text="Learn More" id="learnMoreDifferent" />
+              <a href="#WorkFlow_Matthew_Bedard">
+              <Button type="button" text="Work Flow" id="learnMoreDifferent" />
+              </a>
             </div>
           </div>
           <div>
@@ -104,8 +108,8 @@ const Home = () => {
             />
           </div>
         </div>
-      </section>
-      <section className="works">
+      </section >
+      <section className="works" id="WorkFlow_Matthew_Bedard">
         <div id="work" className="heroContainer">
           <div className="heroContent">
             <h2 className="hColor">How I Work</h2>
@@ -156,12 +160,14 @@ const Home = () => {
               </div>
             </div>
             <div className="startedButton">
-              <Button type="button" text="Get Started" id="Started" />
+            <a href="#Testimonials_Matthew_Bedard">
+              <Button type="button" text="See Testimonials" id="Started" />
+              </a>
             </div>
           </div>
         </div>
       </section>
-      <section>
+      <section id="Testimonials_Matthew_Bedard">
         <div>
           <h2 className="hColor" id="testimonial">
             What Colleagues <br />
@@ -191,7 +197,7 @@ const Home = () => {
               <div className="testimonialCharacter">
                 <img
                   className="testimonialImage"
-                 src="https://ca.slack-edge.com/ESZCHB482-W01207XL02F-9e646be30d0e-512"  
+                  src="https://ca.slack-edge.com/ESZCHB482-W01207XL02F-9e646be30d0e-512"  
                  />
                 <div className="testimonialInfo">
                   <p>Treydon Johnson</p>

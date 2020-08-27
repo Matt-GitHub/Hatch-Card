@@ -35,7 +35,9 @@ const Footer = () => {
             There's no catch with Matthew. Get fast and easy access to a Front-End Developer to
             grow your business.
           </p>
-          <Button type="button" text="Apply Now!" />
+          <a href="https://www.linkedin.com/in/matthew-bedard-dev/" target="_blank">
+          <Button type="button" text="Connect Now!" id="Connect"/>
+          </a>
         </div>
       </div>
       <div className="footerNav">
@@ -139,7 +141,9 @@ const Footer = () => {
           </p>
         </div>
         <div className="subscribe">
-          <a>Subscribe</a>
+            <a href="https://matthewbedard.dev/" target="_blank">
+              <Button type="button" text="Portfolio" id="portfolio" />
+              </a>
           <p>
             There’s no catch with Hatch! Get to know us by subscribing to our
             blog. We will never share your information for marketing purposes
