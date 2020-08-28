@@ -56,6 +56,7 @@ section {
 .wave {
   width: 100vw;
   vertical-align: middle;
+  z-index: -1;
 }
 
 .hatchCard {
