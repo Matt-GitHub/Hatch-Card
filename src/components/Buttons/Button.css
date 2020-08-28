@@ -36,6 +36,7 @@
 
 #learnMore {
   margin-top: 30px;
+  z-index: 855;
 }
 
 #learnMoreDifferent {
@@ -47,22 +48,21 @@
 }
 
 #introButton {
-  margin-top: 20%
+  margin-top: 20%;
+  z-index: 900;
 }
 
 #Connect {
   width: 200px;
 }
 
-
 #portfolio {
- 
   font-weight: bold;
   border-style: solid;
   border: 2px solid #008dcc;
   border-color: #008dcc;
- background-image: none;
- background-color: white;
+  background-image: none;
+  background-color: white;
   color: #277ba0;
   font-size: 16px;
   width: 200px;
