@@ -167,7 +167,7 @@ const Home = () => {
                   alt="Pencil"
                 />
                 <p className="heroCardP">
-                  Iterate and start the process over again
+                  Review, iterate and start the process over again
                 </p>
               </div>
             </div>

@@ -21,6 +21,7 @@ section {
 
 #Introducing_Matthew_Bedard {
   scroll-behavior: smooth;
+  padding-bottom: 70px;
 }
 .heroContainer .heroContent {
   margin-left: 12rem;
@@ -189,6 +190,34 @@ section {
   font-size: 19px;
 }
 
+@media screen and (max-width: 1605px) {
+  #hIntro {
+    line-height: 1.7;
+    font-size: 18px;
+  }
+  .heroP {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1549px) {
+  #hIntro {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .heroP {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1519px) {
+  #Differentiator_Matthew_Bedard {
+    height: 72vh;
+  }
+  #Differentiator_Matthew_Bedard h2 {
+    font-size: 3rem;
+  }
+}
 .testimonialBox {
   padding: 10% 3%;
   text-align: center;
@@ -203,7 +232,9 @@ section {
   color: #277ba0;
   font-weight: 600;
 }
-
+#WorkFlow_Matthew_Bedard {
+  padding-bottom: 50px;
+}
 .wave {
   max-width: 100%;
 }
