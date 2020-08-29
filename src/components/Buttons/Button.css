@@ -21,7 +21,7 @@
     rgb(245, 200, 38),
     rgb(246, 211, 32)
   );
-  box-shadow: 3px 3px 3px -2px gray;
+  box-shadow: 3px 3px 2px -2px gray;
 }
 
 #signup {
